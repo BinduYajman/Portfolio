@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    font-family:'Outfit',sans-serif;
+    background:linear-gradient(135deg, #fff200, #ffd000);
+    color:#222;
+    backdrop-filter:blur(10px);
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  padding: 20px 40px;
+   background:linear-gradient(135deg, #fff200, #ffd000);
+   backdrop-filter:blur(10px);
+}
+.header img{
+    width:40px;
+    transition: 0.2s;
+    cursor:pointer;
+}
+
+.header img:hover{
+transform:scale(1.2)rotate(5deg);
+}
+
+.photo
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.photo img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #ff6f00;
+    box-shadow: 0 0 25px rgba(255, 111, 0, 0.6);
+}
+.name{
+text-align:center;
+margin-top:30px;
+}
+h1, h2,  .big-name {
+    font-family: 'Sora', sans-serif;
+  
+}
+
+
+h1
+{
+    font-size: 40px;
+    font-weight: 300;
+    font-family:'Montserrat',serif;
+}
+.big-name
+{
+    font-size: 70px;
+    font-weight: 700;
+    color:#333;
+    background: linear-gradient(45deg,#ff6f00,#ff8f00);
+    -webkit-background-clip: text;
+      background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif,sans-serif;
+    font-display:fallback;
+    
+}
+.name p{
+font-size:20px;
+margin-top: 10px;
+opacity: 0.8;
+}
+.section-title
+{
+font-family:'Sora',sans-serif;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 20px;  
+  font-style: italic;
+  padding-top: 20px ;
+  color:#333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.education,.experience,.achievements
+{
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    background: #ffffff;
+    color:#333;
+    transition:0.3s;
+    border-left: 6px solid #ff6f00;
+}
+.education:hover,.experience:hover,.achievements:hover
+ {
+  transform: translateY(-10px)scale(1.01);
+}
+ul{
+    list-style: none;
+}
+li{
+    margin:12px 0;
+    font-size: 20px;
+    border-left: 3px solid #ff7b00;
+    padding-left:12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     border-left: 3px solid #ff6f00;
+     font-style: italic;
+}
+p{
+  font-family:'Outfit',sans-serif;  
+  font-style: italic;
+  font-weight: 100px;
+}
+.end{
+text-align: center;
+margin: 50px 0;
+opacity:0.7;
+}
